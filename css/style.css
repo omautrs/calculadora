@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 15em;
+}
+
+.calculadora {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display {
+    width: 508px;
+    text-align: right;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.btn {
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background: rgba(163, 163, 163, 0.2);
+}
+
+.btn:hover {
+    background: rgba(163, 163, 163, 0.5);
+}
